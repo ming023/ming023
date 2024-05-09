@@ -1,0 +1,49 @@
+/* category */
+.category{
+    margin-top: 30px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .category a{
+    text-decoration: none;
+    color:black;
+    padding:10px;
+    margin:20px;
+    border:1px solid gray;
+    border-radius: 10px;
+  }
+  .category a:hover {
+    background-color: #10E195;
+  }
+  .category li{
+    list-style-type:none ;
+    position:left;
+    display: inline-block;
+  }
+  .content_navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content_navbar a{
+    font-weight: bold;
+    padding:20px;
+    color:#000000;
+  }
+  .content_navbar a:hover{
+    color:rgb(0, 4, 255);
+  }
+  .option {
+    height: 20px;
+    float:right;
+  }
+  .option_btn {
+    width: 100px;
+    height: 20px;
+    background-color: #10E195;
+    border-radius: 5px;
+    border:none;
+    color:rgb(0, 0, 0);
+  }

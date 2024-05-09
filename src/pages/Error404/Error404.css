@@ -1,0 +1,19 @@
+.error404_container{
+    text-align: center;
+    width:100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.error404 p {
+    font-size:24px;
+    color:#888888;
+    font-weight: 500;
+}
+
+.error404 img {
+    width: 600px;
+}
+

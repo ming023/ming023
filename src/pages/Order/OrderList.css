@@ -1,0 +1,147 @@
+.orderList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delivery {
+  width: 500px;
+  height: 480px;
+  border-top: 2px solid gray;
+  text-align: left;
+}
+.delivery_content {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.delivery h2,
+h4,
+.payment h2,
+.payment_price h2 {
+  margin: 20px;
+}
+.product_info h2 {
+  margin: 10px;
+}
+
+.delivery p {
+  width: 50px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.delivery input {
+  width: 360px;
+  height: 30px;
+}
+.delivery select {
+  margin-left: 20px;
+  width: 360px;
+  height: 36px;
+}
+
+.product_info {
+  width: 500px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 2px solid gray;
+}
+.product_zip {
+  width: 450px;
+  margin:30px;
+  border:none;
+}
+.product_zip img {
+  width:150px;
+}
+.productContent {
+  float:right;
+  width: 290px;
+  height: 140px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.productContent p {
+  margin:10px;
+}
+.product_table strong {
+  font-weight: 600;
+}
+.payment {
+  width: 500px;
+  height: 100px;
+  border-top: 1px solid gray;
+  text-align: left;
+}
+.payment button {
+  width: 80px;
+  height: 30px;
+  margin: 10px;
+}
+.payment button:hover {
+  background-color: #10e195;
+  border: none;
+}
+.payment_price {
+  border: 2px solid black;
+  float: right;
+  width: 400px;
+  height: 620px;
+  margin-bottom: 230px;
+  margin-left: 20px;
+  text-align: left;
+}
+.payment_price h2 {
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+.payment_price p {
+  padding: 15px;
+  margin:10px;
+}
+.payment_price strong {
+  padding: 15px;
+  font-weight: bold;
+}
+.payment_price #discount {
+  color:#2BBD7C;
+}
+
+.payment_price #all_price {
+  border-bottom: 1px solid black;
+}
+.payment_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.payment_price button {
+  width: 250px;
+  height: 60px;
+  background-color: black;
+  color: white;
+}
+.agree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+}
+.agree label {
+  padding: 2px;
+  font-size: 16px;
+  margin:10px;
+}
+.agree span {
+  margin:10px;
+}
+#all-check,
+#payment_p{
+    font-weight: 600;
+}
